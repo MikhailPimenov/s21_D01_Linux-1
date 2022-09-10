@@ -337,6 +337,10 @@ Lines in the system logs (at least two within a given time range) about the exec
 ![text](../screenshots/part15-2.png)
 
 
+- Command 'Uptime' is launched every two minutes, grep -i cron /var/log/syslog:
+![text](../screenshots/part15-4.png)
+
+
 - Remove all tasks from the job scheduler:
 
 $ crontab -r - remove all tasks;
